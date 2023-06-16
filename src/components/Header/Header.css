@@ -1,6 +1,6 @@
 .header-content{
     min-height: 75vh;
-    background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("../../images/library-img.jpg") center/cover no-repeat;
+    /* background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("../../images/library-img.jpg") center/cover no-repeat; */
     flex-direction: column;
 }
 .header-title{
@@ -11,4 +11,165 @@
     margin-bottom: 2.8rem;
     opacity: 0.8;
     max-width: 770px;
+}
+
+/* extra addes */
+.section-hero {
+    background-color: var(--bg);
+  }
+  
+  .section-hero-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+  }
+  
+  .hero-top-data {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--helper);
+  }
+  
+  .hero-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 6.4rem;
+  }
+  
+  .hero-para {
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    max-width: 60rem;
+  }
+  
+  .section-hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  picture {
+    text-align: center;
+  }
+  
+  .hero-img {
+    max-width: 80%;
+  }
+  
+  /* ===========================================
+  BIO Section Start
+  ======================================= */
+  
+  .bio-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bio-image img {
+    width: 80%;
+    box-shadow: -2rem -2rem 0 0 var(--helper);
+    display: inline-block;
+  }
+  
+  .bio-data-stats {
+    display: flex;
+    padding: 6.4rem 0;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .bio-stats h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .bio-progress-bar {
+    width: 90%;
+    height: 0.8rem;
+    background-color: var(--para-tint);
+    border-radius: 10rem;
+    box-shadow: var(--shadow);
+    position: relative;
+  }
+  
+  .bio-progress-bar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: inherit;
+    background: var(--gradientSupport);
+    border-radius: 10rem;
+  }
+  
+  .bio-progress-2::before {
+    width: 99%;
+  }
+  
+  .bio-progress-3::before {
+    width: 90%;
+  }
+  
+  .bio-progress-4::before {
+    width: 85%;
+  }
+  
+  .bio-progress-5::before {
+    width: 70%;
+  }
+  
+  .bio-progress-bar span {
+    position: absolute;
+    top: 1.8rem;
+    width: 4rem;
+    height: 2rem;
+    background: var(--helper);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: 0;
+  }
+  
+  .bio-progress-bar span {
+    left: 76%;
+  }
+  
+  .bio-progress-2 span {
+    left: 95%;
+  }
+  
+  .bio-progress-3 span {
+    left: 86%;
+  }
+  
+  .bio-progress-4 span {
+    left: 81%;
+  }
+  
+  .bio-progress-5 span {
+    left: 66%;
+  }
+  
+  /* to create a caret  */
+  .bio-progress-bar span::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 0.8rem solid var(--helper);
+    border-color: transparent;
+    border-bottom-color: var(--helper);
+    top: -1.6rem;
+  }
+
+#tailwindDesign{ 
+  margin: 5%;
+}
+#hero_section_image_style{
+   width: 79%;
 }
