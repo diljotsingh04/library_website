@@ -4,7 +4,6 @@ import Book from "../BookList/Book";
 import Loading from "../Loader/Loader";
 import coverImg from "../../images/cover_not_found.jpg";
 import "./BookList.css";
-import Home from '../../pages/Home/Home';
 
 //https://covers.openlibrary.org/b/id/240727-S.jpg
 
@@ -23,7 +22,6 @@ const BookList = () => {
 
   return (
     <div>
-      {/* <Home /> */}
       <section className='booklist'>
         <div className='container'>
           <div className='section-title'>

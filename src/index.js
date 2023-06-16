@@ -8,7 +8,6 @@ import './index.css';
 import About from "./pages/About/About";
 import BookList from "./components/BookList/BookList";
 import BookDetails from "./components/BookDetails/BookDetails";
-// import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Home from './pages/Home/Home';
 
@@ -18,10 +17,10 @@ root.render(
     <BrowserRouter>
     <Navbar/>
     <Routes>
-        <Route path = "/" element = {<Home />}>
-          <Route path = "about" element = {<About />} />
+        <Route exact path = "/" element = {<Home />}>
           <Route path = "book" element = {<BookList />} />
           <Route path = "/book/:id" element = {<BookDetails />} />
+          <Route path = "about" element = {<About />} />
         </Route>
       </Routes>
     </BrowserRouter>
