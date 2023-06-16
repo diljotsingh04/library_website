@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "../Navbar/Navbar";
+// import Navbar from "../Navbar/Navbar";
 import SearchForm from "../SearchForm/SearchForm";
 import hero_image from '../../images/hero_img.jpg'
 import "./Header.css";

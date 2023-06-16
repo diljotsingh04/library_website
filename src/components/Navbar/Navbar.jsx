@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className={toggleMenu ? "navbar-collapse show-navbar-collapse" : "navbar-collapse"}>
           <ul className = "navbar-nav">
             <li className='nav-item'>
-              <NavLink to = "/" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Home</NavLink>
+              <NavLink to = "/book" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Show Books</NavLink>
             </li>
             <li className='nav-item'>
               <NavLink to = "about" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>about</NavLink>

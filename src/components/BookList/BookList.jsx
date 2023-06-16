@@ -23,7 +23,7 @@ const BookList = () => {
 
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
       <section className='booklist'>
         <div className='container'>
           <div className='section-title'>
