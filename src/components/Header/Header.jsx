@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "../Navbar/Navbar";
+// import Navbar from "../Navbar/Navbar";
 import SearchForm from "../SearchForm/SearchForm";
 import hero_image from '../../images/hero_img.jpg'
 import "./Header.css";
@@ -22,7 +22,7 @@ const Header = () => {
                     <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src={hero_image} />
                     <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                       <h2 className="text-sm title-font text-gray-500 tracking-widest">LibraWeb</h2>
-                      <h1 style={{fontWeight: 'bold', fontSize: '4rem', textAlign: 'center'}} className="text-gray-900 title-font font-medium mb-1">Click on Show Books To Load Books</h1>
+                      <h1 style={{fontWeight: 'bold', fontSize: '3rem', textAlign: 'center'}} className="text-gray-900 title-font font-medium mb-1">Welcome to LibraWeb</h1>
                       <p className="leading-relaxed">Welcome to a sanctuary of knowledge, where the pursuit of wisdom is nurtured, and the love for literature knows no boundaries. Words have the power to shape minds, touch hearts, and change the world. Join us in celebrating the profound impact of books and the joy they bring.</p>
                       <div className="flex">
                         <SearchForm />
